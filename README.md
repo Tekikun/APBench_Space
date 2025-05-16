@@ -11,8 +11,8 @@ The semantic clustering contains a Jupyter Notebook and supporting files for per
 - **`Clusters_Code.ipynb`**:  
   The main Jupyter Notebook that performs semantic analysis using bigram extraction, spectral clustering, t-SNE visualization, and Phi coefficient-based labeling. It analyzes six language models (AstroSage, AstroLlama2, Claude 3.7 Sonnet, Grok 3 Mini (high), Llama 3.1 8B, o4-mini) with 2, 4, and 8 clusters, and provides a reference analysis using the PSA OpenBench Gamma dataset. Running this notebook generates SVG plots for visualization.
 
-- **`PSA_OpenBench_Gamma.json`**:  
-  A JSON file containing the PSA OpenBench Gamma dataset, used as a reference for comparing model outputs. It includes solution text blocks for semantic clustering analysis.
+- **`APBench_Gamma.json`**:  
+  A JSON file containing the APBench-Gamma dataset, used as a reference for comparing model outputs. It includes solution text blocks for semantic clustering analysis.
 
 - **`AstroSage.txt`, `AstroLlama2.txt`, `Claude 3.7 Sonnet.txt`, `Grok 3 Mini (high).txt`, `Llama 3.1 8B.txt`, `o4-mini.txt`**:  
   Text files containing the output replies from the respective language models. These files are processed to extract bigrams and perform clustering analysis.
