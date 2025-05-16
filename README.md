@@ -10,6 +10,14 @@ The Benchmarking_APBench folder contains multiple benchmarking scripts covering 
 ### Usage
 Each script stands along and could run directly with necessary API information.
 
+- **`Anthropic_Claude_3.7_Sonnet.ipynb`** runs the benchmarking for Claude 3.7 Sonnet.
+- **`OpenAI_o4-mini.ipynb`** runs the benchmarking for openAI models.
+- **`XAI_Grok-Beta-mini-highreasoning`** runs the benchmarking for Grok 3 Mini (high).
+- **`AstroSage-8b.ipynb`** runs the benchmarking for AstroSage 8B or other models hosted on HuggingFace.
+- **`Ollama_deepseek_R1.ipynb`** runs the benchmarking for R1 32B or other models on Ollama.
+- **`Llamas_Families_3.1.ipynb`** runs the benchmarking for Llama 3.1 or other models hosted on HuggingFace.
+- **`Script_Result_Evolution.m`** is a stand-along script for the benchmarking evolution and prediction plot.
+
 ## Semantic_Clustering
 
 The semantic clustering contains a Jupyter Notebook and supporting files for performing semantic clustering analysis on language model outputs and a reference dataset.
@@ -44,6 +52,6 @@ The semantic clustering contains a Jupyter Notebook and supporting files for per
 FSI, Foundational Stability Indicator, is a novel callout to quantify a model's stability or ``stubbornness'' over a question with respect to its reference solution trajectory.
 
 ### Usage
-- FSI_demo_Anthropic_Claude_3.7_Sonnet.ipynb calculates the FSI.
-- results_summary_Claude 3.7 Sonnet.pkl is the generated result from calculating FSI.
-- Script_FSI.ipynb provides the trajectory analysis and FSI value comparison from a generated file.
+- **`FSI_demo_Anthropic_Claude_3.7_Sonnet.ipynb`** calculates the FSI.
+- **`results_summary_Claude 3.7 Sonnet.pkl`** is the generated result from calculating FSI.
+- **`Script_FSI.ipynb provides the trajectory`** analysis and FSI value comparison from a generated file.
