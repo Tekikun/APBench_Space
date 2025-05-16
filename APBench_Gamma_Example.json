@@ -1,0 +1,28 @@
+[
+    {
+        "Content": "Content",
+        "Questions": [
+            {
+                "Question": "Question?",
+                "Solution": "Solution!",
+                "Answer": "Answer.",
+                "Format": "message or numeric",
+                "Source": "SOURCE"
+            },
+            {
+                "Question": "Question?",
+                "Solution": "Solution!",
+                "Answer": "Answer.",
+                "Format": "message or numeric",
+                "Source": "SOURCE"
+            },
+            {
+                "Question": "Question?",
+                "Solution": "Solution!",
+                "Answer": "Answer.",
+                "Format": "message or numeric",
+                "Source": "SOURCE"
+            }
+        ]
+    }
+]
