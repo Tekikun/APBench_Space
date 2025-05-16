@@ -1,16 +1,16 @@
 # APBench_Space
- APBench for Space Engineering
+ APBench for Space Engineering code repo.
 
 # APBench
-APBench_Alpha.json, APBench_Beta.json, APBench_Gamma.json are made publicaly available at https://huggingface.co/datasets/woodywu/APBench.
+APBench_Alpha.json, APBench_Beta.json, APBench_Gamma.json are made publicaly available at https://huggingface.co/datasets/woodywu/APBench. 
 
-## Benchmarking Code
+## Benchmarking_APBench
 The Benchmarking_APBench folder contains multiple benchmarking scripts covering the major models used in evaluating model performance on APBench. 
 
 ### Usage
 Each script stands along and could run directly with necessary API information.
 
-## Semantic Clustering Analysis 
+## Semantic_Clustering
 
 The semantic clustering contains a Jupyter Notebook and supporting files for performing semantic clustering analysis on language model outputs and a reference dataset.
 
